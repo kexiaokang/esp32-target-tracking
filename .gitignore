@@ -1,0 +1,23 @@
+# 编译产物（体积很大，绝不入库）
+build*/
+*.bin
+*.elf
+*.map
+*.hex
+
+# Python 本地环境
+.pylib/
+__pycache__/
+*.pyc
+
+# 调试日志
+logs_*.txt
+*.log
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
